@@ -1565,7 +1565,8 @@ inline NSString* UserDefaultKeyWithSiteID(NSString *siteID, NSString *key) {
     return _managedObjectModel;
   }
   
-  NSURL *modelURL = [[NSBundle mainBundle] URLForResource:@"piwiktracker" withExtension:@"momd"];
+  NSBundle *frameworkBundle = [NSBundle bundleForClass:[self class]];
+  NSURL *modelURL = [frameworkBundle URLForResource:@"piwiktracker" withExtension:@"momd"];
   _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
   
   return _managedObjectModel;

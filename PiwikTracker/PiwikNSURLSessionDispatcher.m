@@ -42,8 +42,9 @@ static NSUInteger const PiwikHTTPRequestTimeout = 5;
   }];
   
   // URL encoded query string
-  NSString *queryString = [[parameterPairs componentsJoinedByString:@"&"] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-  
+  NSCharacterSet *set = [NSCharacterSet URLQueryAllowedCharacterSet];
+  NSString * queryString = [[parameterPairs componentsJoinedByString:@"&"] stringByAddingPercentEncodingWithAllowedCharacters:set];
+
   NSURL *URL = [NSURL URLWithString:[@"?" stringByAppendingString:queryString] relativeToURL:self.piwikURL];
   NSMutableURLRequest *request = [[NSMutableURLRequest alloc]
                                   initWithURL:URL

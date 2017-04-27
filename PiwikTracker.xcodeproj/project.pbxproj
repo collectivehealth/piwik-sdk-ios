@@ -48,8 +48,8 @@
 		0E3CA9D21B8E765F0021078F /* PiwikLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD152F5C188C7CCA0090BFD3 /* PiwikLocationManager.m */; };
 		0E3CA9D31B8E765F0021078F /* piwiktracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDBCF6F81B10C6C200F77481 /* piwiktracker.xcdatamodeld */; };
 		0E3CA9D41B8E76830021078F /* PiwikTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = CD10FAEA17B037B50012BE50 /* PiwikTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E3CA9D51B8E76830021078F /* PiwikDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC7625519B0F9DA00EED980 /* PiwikDispatcher.h */; };
-		0E3CA9D61B8E76830021078F /* PiwikDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1EEB1E19B4A208009BAA7A /* PiwikDebugDispatcher.h */; };
+		0E3CA9D51B8E76830021078F /* PiwikDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC7625519B0F9DA00EED980 /* PiwikDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E3CA9D61B8E76830021078F /* PiwikDebugDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1EEB1E19B4A208009BAA7A /* PiwikDebugDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E3CA9D71B8E76830021078F /* PiwikNSURLSessionDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = CD1EEB2019B4A208009BAA7A /* PiwikNSURLSessionDispatcher.h */; };
 		0E3CA9D81B8E76830021078F /* PiwikTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = CD152F3B188BE59F0090BFD3 /* PiwikTransaction.h */; };
 		0E3CA9D91B8E76830021078F /* PiwikTransactionItem.h in Headers */ = {isa = PBXBuildFile; fileRef = CD152F41188C4B010090BFD3 /* PiwikTransactionItem.h */; };

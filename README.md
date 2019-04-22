@@ -1,3 +1,19 @@
+<!-- CH Repo Tracking Data version 1.0.2 -->
+|     Category     |         Value         |
+| ---------------: | --------------------- |
+| **Repo Status**  | production |
+| **Language**     | Objective-C          |
+| **Repo Owner**   | iOS  |
+<!-- If you use any of the following fields, please delete "Repo Owner", above,
+     as it then becomes ambiguous.  If you add fields, please update the script
+     at walker-github-ranger. -->
+<!--
+| **Repo PoC**     | <One or more humans>  |
+| **Repo Oncall**  | <Link to PagerDuty>   |
+| **Repo Team Owner** | <Name of owning team> |
+-->
+
+
 #PiwikTracker iOS SDK
 
 **v3.3.0 Setting custom user-agent header is only possible through the PiwikDispatcher.**
